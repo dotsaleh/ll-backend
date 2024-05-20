@@ -15,4 +15,4 @@ class MenuViewTest(TestCase):
             serialized.append(MenuSerializer(item))
             print(item)
             
-        
+        self.assertEqual(serialized[0], "Donout : 2.00")
